@@ -112,8 +112,7 @@ footer a{
 
 .ft-bot{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     text-align: left;
 }
 
@@ -152,19 +151,11 @@ footer a{
         height: 70%;
         
       }
-    
-      /* Footer Grid Container */
-      .footer-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr; /* Two columns for contact and hours */
-        padding: 16px;
-      }
-      /* Ensure the copyright section spans the full width */
-      .footer-grid .copyright {
-        grid-column: span 2; /* Makes it span both columns */
-        text-align: center;
-        margin-top: 16px;
-      }
+
+    .ft-bot{
+        flex-direction: row;
+        justify-content: space-between;
+    }
     
     
 
