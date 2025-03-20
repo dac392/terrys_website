@@ -19,9 +19,10 @@ function Hero() {
         <h1 class="hero-title">A Sip of Comfort, A Bite of Home</h1>
         <p class="p1">Enjoy the warmth of freshly brewed coffee and the comfort of a homemade breakfast, all served with a touch of love.</p>
         <img src="/pancakes.jpg" alt="All American Breakfast Spread" class="hero-oval" />
-        
-        <p class="p2">Dish of the day: <strong>{dishOfTheDay}</strong></p>
-
+        <div class="p2">
+          <p><strong>Soup of the day:</strong></p>
+          <p>{dishOfTheDay}</p>
+        </div>
         <div class="p3">
             <h2>8+</h2>
             <p>variety of food available</p>
