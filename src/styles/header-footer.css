@@ -92,17 +92,39 @@ header h1 {
 
 /* Footer styles */
 footer {
-    background: #e6ab90;
-    color: black;
-    text-align: center;
-    padding: 1rem 0;
+    background: #4b211f;
+    color: white;
+    padding: 10px 50px;
     margin-top: auto; /* Ensures footer sticks to the bottom when content is short */
+
+    text-align: center;
 }
 
 footer a{
     color: white;
 }
 
+.ft-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ft-bot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.top-border{
+    border-top: 1px solid lightgray;
+    padding-top: 10px;
+}
+
+.description{
+    line-height: 1.5;
+}
 
 
 
