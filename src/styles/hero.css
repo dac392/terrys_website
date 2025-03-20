@@ -116,7 +116,7 @@ li h4, li p{
 
     /* Left Paragraph */
     .p1 {
-        grid-column: 1 / 4;
+        grid-column: 2 / 4;
         grid-row: 5 / 7;
     }
 
@@ -129,7 +129,7 @@ li h4, li p{
 
     /* Bottom Left Stats */
     .p3 {
-        grid-column: 1 / 4;
+        grid-column: 2 / 4;
         grid-row: 9 / 11;
     }
 
