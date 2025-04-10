@@ -1,0 +1,169 @@
+header {
+    background: #fbf3e3; /* c06e53 a94116 */
+    color: #4b211f;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Aligns items vertically */
+    justify-content: center; /* Centers everything horizontally */
+    gap: 2rem; /* Adds space between elements */
+
+    position: relative;
+}
+
+header::after{
+    content: "";
+    display: block;
+    width: 90%;
+    height: 2px; /* Thickness of the line */
+    background-color: #4b211f;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); /* Centers the line */ 
+}
+
+.hero-logo {
+    width: 50px; /* Adjust the size of the logo */
+    height: auto;
+    margin-right: 8px;
+  }
+
+/* Styling for the home link */
+.home-link {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the color of the h1 */
+    position: relative;
+}
+
+.home-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Position the underline below the text */
+    width: 0;
+    height: 2px;
+    background-color: currentColor; /* Matches text color */
+    transition: width 0.3s ease-in-out;
+}
+
+.home-link:hover::after {
+    width: 100%; /* Expands underline */
+}
+  
+.order-online{
+    text-decoration: none;
+    color: inherit;
+    border-radius: 10%;
+    border: 2px solid #4b211f;
+    padding: 10px;
+    margin-right: 1em;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.order-online:hover {
+    background-color: #4b211f;
+    color: #fbf3e3;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center everything for mobile view */
+    flex-wrap: wrap; /* Ensures proper alignment for narrow screens */
+}
+
+.header-container h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    text-align: center; /* Default for mobile view */
+}
+header h1 {
+    text-align: center;
+}
+
+
+  
+
+
+
+
+
+
+/* Footer styles */
+footer {
+    background: #4b211f;
+    color: white;
+    padding: 10px 50px;
+    margin-top: auto; /* Ensures footer sticks to the bottom when content is short */
+
+    text-align: center;
+}
+
+footer a{
+    color: white;
+}
+
+.ft-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ft-bot{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.top-border{
+    border-top: 1px solid lightgray;
+    padding-top: 10px;
+}
+
+.description{
+    line-height: 1.5;
+}
+
+
+
+
+@media screen and (min-width: 750px){
+    header{
+        flex-direction: row;
+        justify-content: space-between; /* Ensures space between elements */
+        align-items: center;
+    }
+    .header-container {
+        justify-content: flex-start; /* Align logo and name to the left */
+        padding-left: 1.5rem;
+      }
+    
+      .header-container h1 {
+        text-align: left; /* Align text to the left */
+      }
+    
+      #contact .container {
+        text-align: left; /* Align content to the left */
+      }
+
+    .bf-spread{
+        height: 70%;
+        
+      }
+
+    .ft-bot{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    
+
+}
+
+@media screen and (min-width: 2000px){
+    .bf-spread{
+        height: 50%;
+        
+      }
+}

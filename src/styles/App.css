@@ -1,0 +1,33 @@
+html, body {
+  height: 100%; /* Full height for the viewport */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #4b211f;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+}
+
+.flair{
+  width: 75px;
+  height: 75px;
+}
+
+.shrikhand {
+  font-family: "Shrikhand", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.holtwood {
+  font-family: "Holtwood One SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sonsie {
+  font-family: "Sonsie One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
