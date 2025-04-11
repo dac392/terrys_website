@@ -5,7 +5,6 @@ import './styles/about.css'
 
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import HeroBottom from "./components/HeroBottom";
 import About from "./components/About";
 import Footer from "./components/Footer";
 
@@ -14,7 +13,7 @@ function App() {
     <div className="App">
       <Header />
       <Hero />
-      <HeroBottom />
+
       <About />
       <Footer />
     </div>

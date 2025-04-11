@@ -11,17 +11,17 @@ header {
     position: relative;
 }
 
-header::after{
+/* header::after{
     content: "";
     display: block;
     width: 90%;
-    height: 2px; /* Thickness of the line */
+    height: 2px; 
     background-color: #4b211f;
     position: absolute;
     bottom: 0;
     left: 50%;
-    transform: translateX(-50%); /* Centers the line */ 
-}
+    transform: translateX(-50%); 
+} */
 
 .hero-logo {
     width: 50px; /* Adjust the size of the logo */

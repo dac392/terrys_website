@@ -1,38 +1,86 @@
-.hero-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 50px 50px 0 50px; /* Top, Right, Bottom, Left */
-    background: linear-gradient(to bottom, #fbf3e3 75%, #4b211f 25% );
-}
-
-/* Title Styling */
-.hero-title {
-    text-align: center;
-    font-size:  4rem;
-}
-
-/* Centered Oval Image */
-.hero-oval {
-    width: 400px;
-    border-radius: 50% / 25%; /* Creates a track field-like oval */
-    border: 5px solid #decab5;
-    
-    justify-self: center;
-    align-self: center;
-}
-
-.p1{
-    text-align: center;
-}
-
-.p2, .p3, .p4{
+.hero-gallery {
+    position: relative;
+    background-color: #fbf3e3;
+  }
+  
+  .banner-slide {
+    width: 100%;
+  }
+  
+  /* Navigation Arrows */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 1rem;
     color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
+    z-index: 5;
+    transform: translateY(-50%);
+    user-select: none;
+  }
+  
+  .prev {
+    left: 20px;
+  }
+  
+  .next {
+    right: 20px;
+  }
+  
+  /* Controls Container: dots + play/pause side-by-side */
+  .controls-container {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-}
+    gap: 1rem;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+  
+  /* Dots */
+  .dot-container {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  
+  .dot.active,
+  .dot:hover {
+    background-color: #4b211f;
+  }
+  
+  /* Play/Pause Button */
+  .play-pause-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #4b211f;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .play-pause-button:hover {
+    background-color: #666;
+  }
+  
+  
+  
 
 
 /*
