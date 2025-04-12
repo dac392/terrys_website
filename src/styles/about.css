@@ -14,7 +14,7 @@
     border-radius: 50% / 25%; /* Creates a track field-like oval */
     width: 400px;
     outline: 2px solid white; /* Inner border */
-    outline-offset: -8px; /* Moves the border inside */
+    outline-offset: -10px; /* Moves the border inside */
     justify-self: center;
     align-self: center;
 }

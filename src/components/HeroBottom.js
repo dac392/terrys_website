@@ -4,20 +4,11 @@ import React from "react";
 function HeroBottom() {
   return (
     <div class="bottom-hero">
-        <h3>Where Every Sip &amp; Bite Feels Like Home~</h3>
-        <ul class="food-options">
-            <li>Eggs</li>
-            <li>Hot Sandwiches</li>
-            <li>Seafood</li>
-            <li>Desserts</li>
-            <li>Platters</li>
-            <li>Beverage</li>
-            <li>Crispy Cold Salad Plates</li>
-        </ul>
+        <h3>How To Find Us</h3>
         <ul class="info">
             <li>
                 <h4>Location</h4>
-                <p>3817 Bergenline ave,</p>
+                <p>3817 Bergenline Ave,</p>
                 <p>Union City, NJ</p>
             </li>
             <li>
