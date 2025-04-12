@@ -90,7 +90,7 @@
 
 .bottom-hero{
     color: white;
-    background-color: #4b211f;
+    background-color: #fbf3e3;
     margin: 0;
     padding: 50px 50px 10px 50px;
     display: flex;
@@ -101,6 +101,9 @@
 .bottom-hero h3{
     margin: 0;
     text-align: center;
+    color: #4b211f;
+    font-size: 1.5rem;
+
 }
 
 .bottom-hero ul{
