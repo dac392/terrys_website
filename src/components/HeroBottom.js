@@ -4,7 +4,7 @@ import React from "react";
 function HeroBottom() {
   return (
     <div class="bottom-hero">
-        <h3>Where Every Bite Tastes Like Home~</h3>
+        <h3>How To Find Us</h3>
         <ul class="info">
             <li>
                 <h4>Location</h4>
