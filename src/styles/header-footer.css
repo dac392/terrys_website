@@ -50,7 +50,30 @@ header {
 .home-link:hover::after {
     width: 100%; /* Expands underline */
 }
-  
+
+.menu{
+    position: relative;
+    text-decoration: none;
+    color: #4b211f;
+    margin-right: 2rem;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.menu:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Position the underline below the text */
+    width: 0;
+    height: 2px;
+    background-color: currentColor; /* Matches text color */
+    transition: width 0.3s ease-in-out;
+}
+
+.menu:hover::after {
+    width: 100%; /* Expands underline */
+}
+
 .order-online{
     text-decoration: none;
     color: inherit;

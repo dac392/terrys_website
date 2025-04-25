@@ -1,12 +1,12 @@
 // src/components/Option.js
 import React from "react";
 
-function Option({ src, title }) {
+function Option({ src, title, href }) {
     return (
-        <div className="opt">
+        <a href={href} className="opt">
             <img src={src} alt={title} className="opt-img"/>
             <h3>{title}</h3>
-        </div>
+        </a>
     );
 }
 
