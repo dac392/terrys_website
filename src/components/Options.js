@@ -12,7 +12,7 @@ function Options() {
             <Option src="/sandwich.png" title="Sandwiches & Wraps" />
             <Option src="/burger.png" title="Burgers" />
             <Option src="/drinks.png" title="Drinks" />
-            <Option src="/specials.png" title="Specials" />
+            <Option src="/bbq.png" title="Specials" />
             <Option src="/specials.png" title="Hot Plates" />
             <Option src="/salad.png" title="Salads" />
             <Option src="/desserts.png" title="Desserts" />
